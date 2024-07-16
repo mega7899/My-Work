@@ -1,0 +1,37 @@
+body {
+   background-image: linear-gradient(to top right, rgb(30, 30, 43) , rgb(85, 85, 40), rgb(122, 45, 45) );
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 300px;
+}
+
+.container {
+  text-align: center;
+  
+}
+
+form {
+   border: 3px solid black;
+   background-image: linear-gradient(to bottom left, rgba(0, 4, 255, 0.418), rgba(218, 11, 11, 0.322));
+   box-shadow: -10px 9px 10px rgba(27, 26, 26, 0.836), 10px -9px 10px rgba(27, 26, 26, 0.836);
+   padding: 20px;
+   margin: 18px;
+}
+
+input[type=text], [type=password] {
+   border: 2px solid rgb(47, 161, 255);
+   width: 300px;
+   padding: 10px 23px;
+   margin: 14px 0px;
+}
+
+input[type=submit] {
+   font-size: 15px;
+   background: rgba(201, 6, 6, 0.397);
+}
+
+.button {
+   font-size: 15px;
+   background: rgba(201, 6, 6, 0.397);
+}

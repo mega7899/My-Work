@@ -1,0 +1,41 @@
+body {
+    background: rgb(32, 30, 30);
+    text-align: center; 
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+}
+
+.date {
+    text-align: left;
+}
+
+
+.size {
+    font-size: 17px;
+}
+
+h2 {
+    text-align: center; 
+    border: solid 3px black;
+    border-radius: 10px;
+    background-image: linear-gradient(to top right, rgb(14, 14, 199), rgb(201, 21, 21), rgb(211, 211, 18));
+    text-shadow: 5px 5px 5px rgb(143, 33, 13);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10cap;
+}
+
+.g {
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 3px 10px 3px rgb(57, 88, 49);
+    color: rgb(143, 33, 13);
+}
+
+.games {
+    background: whitesmoke;
+    border: solid 2px black;
+}

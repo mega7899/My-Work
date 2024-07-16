@@ -1,0 +1,30 @@
+body {
+    background: whitesmoke;
+}
+
+.start {
+    background: rgb(5, 1, 255);
+    font-size: 19px;
+    border: solid 2px black;
+    padding-top: 20px;
+    height: 30px;
+}
+
+.text {
+    text-align: right;
+}
+
+.end {
+    outline: solid 2px black;
+    margin-top: 30%;
+}
+
+table, td{
+    outline: solid 1px black;
+    width: 60%;
+    height: 40%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
