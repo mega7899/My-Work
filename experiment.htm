@@ -5,14 +5,48 @@
     </head>
 
     <body>
-
-        <p id="demo">Delete Me If You Can!</p>
-        <button onclick="myDelete()"> Click Me To Teach This Bastard A Lesson! </button>
+        <button onclick="Name.ShowName()">Click Me To Reveal My True Name!</button>
 
         <script>
-            function myDelete() {
-                document.getElementById("demo").innerHTML="";
-            };
+
+        const Window = window.prompt("What Can I Call You?");
+        const Type = "This Might Be A Bit Suprising But Welcome! "+ Window + " To My Site!";
+        alert(Type);
+        const Site = "How About We Chat For Bit Huh?" + Window;
+        alert(Site);
+        const Choise1 = window.prompt("Yes Or No?", "sure or nah");
+        switch(Choise1) {
+            case "sure":
+            const var1 = window.prompt("Nice So How Was Your Day?");
+            switch(var1) {
+                case "just fine":
+                    alert("That sounds amazing!" + Window);
+                    break;
+                case "great":
+                    alert("Wow On How You Type That You Most Be Really Had A Good Day!");
+                    break;
+                case "awful":
+                    alert("Oooh...");
+                    alert("Um...");
+                    alert("I'm Not Really Good At Conforting Someone But Don't Worry I Assure You Tomorrow Will Be A great Day!");
+            }
+            break
+            case "nah":
+            alert("What Your Such A Bummer");
+            const no1 = "Your No Fun At All You Know That.";
+            alert(no1);
+            break;
+        }
+
+
+        const Name = {
+         FirstName: "Alan ",
+         LastName: "Walker",
+         Age: 18,
+         ShowName: function(){
+            alert(this.FirstName + Name.LastName);
+         }
+        };
         </script>
     </body>
 </html>
