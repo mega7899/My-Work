@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 2rem;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background: #fff;
+    }
+
+    img{
+      width: clamp(90%, 100%, 1120%);
+    }
+
+    hr{
+      margin: 1rem 0 1rem 0;
+    }
+
+    span{
+      color: rgb(173, 117, 48);
+    }
+
+    .mobile_container{
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .list-container{
+     margin-left: 50px;
+    }
+
+    .list-container b{
+      color: blueviolet;
+    }
+
+    .ingredients{
+      margin: 2rem 0 0 0;
+    }
+
+    .nut-value{
+    text-align: center;
+    }
+
+    .nut-value pre{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    @media screen and (min-width: 1000px){
+      body{
+        background:  rgb(199, 175, 146);
+      }
+
+      .wrapper{
+        border: 2px solid whitesmoke;
+        background: #fff;
+        padding: 3rem;
+        border-radius: 3em;
+      }
+
+      .desktop_container{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 150px;
+        margin-bottom: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="desktop_container wrapper">
+  <img src="/assets/images/image-omelette.jpeg" alt="omellete">
+
+    <div class="mobile_container">
+      <div class="description">
+        <h3>Simple Omellete Recipe</h3>
+        <br>
+        <p> An easy and quick dish, perfect for any meal. This classic omellete combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetable, or meats.</p>
+        <br>
+        <div class="list-container">
+          <b>Preparation Time</b>
+          <ul class="list_item">          
+            <li><strong>Total:</strong>Approximately 10 minutes</li>
+            <li><strong>Preparation:</strong> 5 minutes</li>
+            <li><strong>Cooking</strong> 5 minutes</li>
+          </ul>
+      </div>
+      </div>
+
+      <section class="ingredients">
+        <div class="list-container">
+          <h3><span>Ingredients</span></h3>
+          <ul>
+            <li>2-3 large eggs</li>
+            <li>Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+          </ul>
+      </div>
+        <hr>
+      </section>
+
+      <section class="instructions">
+        <h3><span>Instructions</span></h3>
+        <br>
+        <ol>
+          <li><strong>Beat the eggs:</strong>In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+          <li><strong>Heat the pan:</strong>Place a non-stick frying pan over medium heat and add butter or oil.</li>
+          <li><strong>Cook the omellete:</strong>Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+          <li><strong>Adding fillings(optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+          <li><strong>Fold and serve:</strong>As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+          <li><strong>Enjoy:</strong>Serve hot, with additional salt and pepper if needed.</li>
+        </ol>
+        <hr>
+      </section>
+
+      <section class="Nutrition">
+        <h3><span>Nutrition</span></h3>
+        <br>
+        <p>The table below shows nutritional values per serving without the additional fillings</p>
+        <br>
+        <div class="nut-value">
+          <pre>Calories        <span>277kcal</span></pre>
+          <hr>
+          <pre>Carbs           <span>0g</span></pre>
+          <hr>
+          <pre>Protein         <span>20g</span></pre>
+          <hr>
+          <pre>Fat             <span>22g</span></pre>
+        </div>
+      </section>
+      
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+  </div>
+</main>
+</body>
+</html>
